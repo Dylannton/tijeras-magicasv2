@@ -2,8 +2,9 @@ import React from "react";
 import corte1 from "../Assets/Images/Corte-1.png";
 import corte2 from "../Assets/Images/Corte-2.png";
 import corte3 from "../Assets/Images/Corte-3.png";
+import corte4 from "../Assets/Images/Corte-4.png";
 
-const images = [corte1, corte2, corte3]; // Lista de imágenes
+const images = [corte1, corte2, corte3, corte4]; // Lista de imágenes
 
 export default function Gallery() {
     return (
