@@ -25,10 +25,10 @@ export default function HeroSection() {
                 <Link
                     to="booking"
                     smooth={true}
-                    duration={800}
+                    duration={200}
                     offset={-80} // Ajusta la posición después de hacer scroll
-                    className="mt-6 inline-block bg-purple-500 hover:bg-purple-600 text-white py-3 px-6 rounded-lg 
-                    text-lg font-semibold transition duration-300 shadow-md hover:shadow-lg animate-fade-in-up delay-200 cursor-pointer"
+                    className="mt-6 inline-block bg-purple-700 hover:bg-purple-600 text-white py-3 px-6 rounded-lg 
+                    text-lg font-semibold transition duration-300 shadow-md hover:shadow-lg animate-fade-in-up cursor-pointer"
                 >
                     Agendar Cita
                 </Link>
