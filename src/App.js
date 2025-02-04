@@ -4,6 +4,10 @@ import HeroSection from "./Components/HeroSection";
 import Services from "./Components/Services";
 import Gallery from "./Components/Gallery";
 import Location from "./Components/Location";
+import ContactButton from "./Components/ContactButton";
+import BookingForm from "./Components/BookingForm";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -13,6 +17,10 @@ function App() {
       <Services />
       <Gallery />
       <Location />
+      <ContactButton />
+      <BookingForm />
+      <Contact />
+      <Footer />
     </>
   );
 }
