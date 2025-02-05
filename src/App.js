@@ -16,9 +16,9 @@ function App() {
       <HeroSection />
       <Services />
       <Gallery />
+      <BookingForm />
       <Location />
       <ContactButton />
-      <BookingForm />
       <Contact />
       <Footer />
     </>

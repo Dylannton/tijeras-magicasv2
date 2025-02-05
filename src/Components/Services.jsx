@@ -92,10 +92,10 @@ export default function Services() {
     };
 
     return (
-        <section id="services" className="py-20 bg-gradient-to-b from-pink-50 to-white">
+        <section id="services" className="py-20 bg-gradient-to-b from-pink-50 to-pink-300/60 ">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-16">
-                    <Brush className="inline-block text-pink-500 mb-4" size={32} />
+                    <Brush className="inline-block text-purple-500 mb-4" size={32} />
                     <h2 className="text-4xl font-bold text-gray-800 mb-4">
                         Nuestros Servicios
                     </h2>

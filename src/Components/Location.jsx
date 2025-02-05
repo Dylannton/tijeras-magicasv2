@@ -37,13 +37,13 @@ const Location = () => {
     };
 
     return (
-        <section id="location" className="py-20 bg-gradient-to-b from-pink-50 to-white relative z-10">
+        <section id="location" className="py-20 bg-gradient-to-b from-gray-50 to-white relative z-10">
             <div className="container mx-auto px-4">
                 {/* Navbar asegurado con un z-index alto */}
                 <div className="fixed top-0 left-0 w-full bg-white shadow-md z-50"></div>
 
                 <div className="text-center mb-16">
-                    <MapPin className="inline-block text-pink-500 mb-4" size={32} />
+                    <MapPin className="inline-block text-purple-500 mb-4" size={32} />
                     <h2 className="text-4xl font-bold text-gray-800 mb-4">
                         Ubicación y Horarios
                     </h2>

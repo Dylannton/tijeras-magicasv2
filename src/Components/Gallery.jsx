@@ -33,10 +33,10 @@ const Gallery = () => {
     };
 
     return (
-        <section id="gallery" className="py-20 bg-gradient-to-b from-pink-50 to-white">
+        <section id="gallery" className="py-20 bg-gradient-to-b from-gray-50 to-purple-300/60">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-16">
-                    <Scissors className="inline-block text-pink-500 mb-4" size={32} />
+                    <Scissors className="inline-block text-purple-500 mb-4" size={32} />
                     <h2 className="text-4xl font-bold text-gray-800 mb-4">
                         Nuestra Galería de Estilos
                     </h2>
